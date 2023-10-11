@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tailwind custom utility classes */
+@layer utilities{
+  .custom-gradient{
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+  }
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -11,3 +19,9 @@
 body{
   background-color: #150E28;
 }
+
+/* Background filter for Nav Links section */
+.background-filter {
+  backdrop-filter: blur(30px);
+}
+

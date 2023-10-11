@@ -9,19 +9,19 @@ const Intro = () => {
     <section>
       {/* Subtitle? */}
       <div>
-        <h2>Igniting a Revolution in HR Innovation</h2>
+        <h2 className="text-white">Igniting a Revolution in HR Innovation</h2>
       </div>
 
       <div>
         {/* Titles and counter */}
         <div>
           <div>
-            <h1>getlinked Tech</h1>
+            <h1 className="text-white">getlinked Tech</h1>
             <h1>
               Hackathon <span id="purple">1.0</span>{" "}
               <img src={chain} alt="Chain" /> <img src={blow} alt="Blow" />
             </h1>
-            <p>
+            <p className="text-white">
               Participate in getlinked tech Hackathon 2023 stand a chance to win
               a Big prize
             </p>
