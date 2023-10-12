@@ -7,6 +7,7 @@ export default {
         clash: ["Clash Display", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         mont: ["Montserrat", "sans-serif"],
+        unica: ["Unica One", "sans-serif"],
       },
     },
   },
