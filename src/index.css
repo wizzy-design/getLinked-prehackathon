@@ -45,3 +45,10 @@ body {
 .background-filter {
   backdrop-filter: blur(30px);
 }
+
+.hero {
+  background-image: url("./assets/icons/purple-lens-flare.svg");
+  background-repeat: no-repeat no-repeat;
+  background-size: contain;
+  /* background-position: top; */
+}

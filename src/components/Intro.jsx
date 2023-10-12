@@ -2,7 +2,7 @@
 import blow from "../assets/icons/blow.svg";
 import bulb from "../assets/icons/bulb.svg";
 import chain from "../assets/icons/chain.svg";
-import man from "../assets/img/glasses_man.svg";
+import man from "../assets/img/glasses_man.png";
 import ellipse from "../assets/icons/HR_line.svg";
 // import purple_flare from "../assets/icons/purple-lens-flare.svg";
 // Emma, help me do the purple flare background
@@ -13,7 +13,7 @@ import star3 from "../assets/icons/star3.svg";
 
 const Intro = () => {
   return (
-    <section className="relative space-y-10">
+    <section className="relative space-y-10 z-10">
       {/* Subtitle? */}
       <div className="md:justify-end md:flex md:pr-12">
         <h2 className="mt-3 italic font-bold text-center text-white font-mont md:text-xl">
@@ -31,13 +31,6 @@ const Intro = () => {
       <div className="my-4 md:flex md:justify-between md:px-10">
         <div
         // Emma, help me do the purple flare background
-        // style={{
-        //   background: `url(${purple_flare})`,
-        //   backgroundColor: "#150E28",
-        //   backgroundPosition: "left",
-        //   backgroundSize: "contain",
-        //   backgroundRepeat: "no-repeat",
-        // }}
         >
           <div className="relative my-4 space-y-4 md:pl-4">
             {/* Stars */}
@@ -101,6 +94,7 @@ const Intro = () => {
             className="md:w-[30rem] border-none"
           />
         </div>
+        {/* <div className="hero"></div> */}
       </div>
     </section>
   );

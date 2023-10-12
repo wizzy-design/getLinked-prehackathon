@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "devemmah",
+    "main",
+    "origin",
+    "wisdom"
+  ],
+  "parent": {
+    "devemmah": "main",
+    "main": null,
+    "origin": "main",
+    "wisdom": "main"
+  },
+  "order": [
+    "main",
+    "devemmah",
+    "origin",
+    "wisdom"
+  ]
+}
