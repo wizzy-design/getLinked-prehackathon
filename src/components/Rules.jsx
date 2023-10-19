@@ -10,7 +10,7 @@ import rules from "../assets/img/rules_guidlines.png";
 const Rules = () => {
   return (
     <section className="pt-[8vh] text-[#fff] md:pt-[10vh]">
-      <div className="w-[80%] m-auto flex flex-col gap-2 md:gap-10 md:flex-row md:items-center lg:gap-20">
+      <div className="w-[85%] m-auto flex flex-col gap-2 md:gap-10 md:flex-row md:items-center lg:gap-20">
         <div
         //   style={{
         //     backgroundImage: `url(${flare2})`,
