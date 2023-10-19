@@ -6,13 +6,14 @@ import mdStar from "../assets/icons/intro-star-md.svg";
 const Introduction = () => {
   return (
     <section className="pt-[8vh] text-[#fff] md:pt-[0vh]">
-      <div className="w-[80%] m-auto flex flex-col gap-10 md:gap-10 md:flex-row md:items-center">
+      <div className="w-[85%] m-auto flex flex-col gap-10 md:gap-10 md:flex-row md:items-center md:mt-20">
         <div className="w-full relative md:w-[100%]">
-          <img src={bigIdea} alt="" className="w-full" />
+          <img src={bigIdea} alt="" className="w-full md:w-[80%]" />
           <img src={smStar} alt="" className="w-[15px] absolute top-[30%]" />
           <img src={arrow} alt="" className="absolute w-[30px] right-[46%] md:right-0 lg:w-[60px]" />
         </div>
 
+        {/* Section with Light Bulb */}
         <div className="text-center mt-5 relative md:w-[90%]">
           <img src={mdStar} alt="" className="absolute right-5 w-[20px] top-5 md:right-0" />
           <h1 className="font-clash font-bold text-[1.25rem] lg:text-left lg:text-[2rem]">
